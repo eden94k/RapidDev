@@ -106,3 +106,22 @@ a {
   }
 }
 
+
+.output {
+  border: 1px solid white;
+  height: 22em;
+  width: 42em;
+  margin: 20px;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.container {  
+  /* max-width: 60%; */
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
