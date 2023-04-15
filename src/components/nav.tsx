@@ -129,7 +129,7 @@ export default function NavBar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <Link href={`/tech/${page}`}>
+                <Link href={`/${page}`}>
                   {page}
                 </Link>
                
